@@ -1,0 +1,154 @@
+/*______________BODY__________________*/
+
+body{
+    color: rgb(0, 0, 0);
+    background-image:url(cielo7.png)
+}
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Estilos del encabezado */
+header {
+  background-color: #FED7E2;
+  padding: 20px;
+
+  position: fixed;        /*LO FIJA AUNQUE SE SCROLEÉ*/
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  color: rgb(5, 156, 91);
+  background-image:url(gg2.jpg);
+   box-sizing: border-box; /* Añade esta propiedad para incluir el padding en el ancho total */
+
+}
+
+main{
+    margin-top: 100px;
+}
+
+    /*_inicio___________NAVEGADOR_____________________*/
+            nav ul{
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                display: flex;
+                align-items: center;
+            }
+            
+            li{
+                display: inline-block;
+                margin-right: 20px;
+            }
+            
+            
+            nav a{
+            
+            color: rgba(9, 147, 87, 0.737);
+            text-decoration: none;
+            padding: 5px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: medium;
+            }
+            
+
+            nav a:hover{  /* qué pasa cuando pasan el cursor por los items del header */
+            color:rgb(255, 80, 130);
+            /*font-stretch: expanded;*/
+            }
+            
+            .logo{
+            border-radius: 50%;
+            width: 48px;
+            padding: 5px;
+            position:fixed; /* Cambia la posición a absoluta */
+            top: 90%; /* Centra verticalmente la imagen */
+            right: 1px; /* Ajusta la posición a la izquierda */
+            transform: translate(-50%, -50%); /* Centra horizontalmente la imagen */
+            }
+            .logo:hover{
+                width: 100px;
+
+            }
+            
+            .logo2{
+                border-radius: 50%;
+                width: 48px;
+                padding: 5px;
+                position:fixed ; /* Cambia la posición a absoluta */
+                top: 90%; /* Centra verticalmente la imagen */
+                right: 1px; /* Ajusta la posición a la izquierda */
+                transform: translate(-50%, -50%); /* Centra horizontalmente la imagen */
+                }
+           
+                
+
+            nav {
+            
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            @media (max-width: 767px) {
+                header {
+                background-color:  rgba(232, 104, 159, 0.661);
+                font-size: 16px;
+                }
+            }
+            
+            @media (min-width: 1200px) {
+                header {
+                width: 100%;
+                }
+            }
+            /*Esto ajusta el ancho del encabezado a 1200 píxeles en pantallas con un ancho mínimo de 1200 píxeles.*/
+            
+            nav .busqueda {
+                width: 130px;
+            }
+
+    /*_fin___________NAVEGADOR_____________________*/
+
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-size: 38px;
+    text-align: center;
+    color:rgb(26, 134, 134);
+    text-shadow: 1px 2px 8px bisque;
+ }
+
+h2 {
+    color: #2F4F4F;
+    margin: 0;
+  }
+
+  /* segundo titulo*/
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    text-align:justify;
+    color:rgba(207, 81, 144, 0.842);
+
+ }
+   /*______________SECCIONES________________________*/
+  section {
+    padding: 40px;
+    margin-top: 100px; /* Añade un margen superior para evitar solapamiento */
+    box-sizing: border-box; /* Asegura que el padding no afecte al tamaño total */
+  }
+  /*______________FOOTER___________________________*/
+ 
+  footer {
+    background-color: #FED7E2;
+    padding: 20px;
+    text-align: center;
+    background-image:url(gg1.jpg)
+  }
+  
